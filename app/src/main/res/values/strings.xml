@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Inspector</string>
+
+    <string name="pending_button">Pending</string>
+    <string name="completed_button">Completed</string>
+    <string name="payments_button">Payments</string>
+    <string name="profile_button">Profile</string>
+    <string name="contact_button">Contact</string>
+
 </resources>
