@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/ActionScreenFragment">
+    <fragment
+        android:id="@+id/ActionScreenFragment"
+        android:name="com.crayonwriter.inspector.ActionScreenFragment"
+        android:label="ActionScreen"
+        tools:layout="@layout/fragment_action_screen">
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/pendingListFragment"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingListFragment"
+        android:name="com.crayonwriter.inspector.PendingListFragment"
+        android:label="PendingListFragment"
+        tools:layout="@layout/fragment_pending_list"/>
+
+</navigation>
