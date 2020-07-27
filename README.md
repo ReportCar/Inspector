@@ -6,7 +6,7 @@ KEY
 
 Steps : Any associated git commands (terminal in this case) | Alternative commands
 
-- Make sure master branch is up to date : git status
+- Make sure master branch is up to date : git status / git pull (if branch is out of date)
 - Create a new branch based on current ticket : (from master branch) git checkout -b NameTicketHere
 - You should now be in a new working branch, make your changes!
 - Stage files / Commit your changes : git add . | git commit -m "My commit message to describe my work."
