@@ -1,5 +1,7 @@
 # Inspector
 
+This was previously a private GitHub for a potential project that has since been scrapped. The project includes some preliminary code, as well as the ticketing system in place to write the code for the project. It may be picked back up in the future.
+
 ### Lifecycle of a ticket
 
 KEY
